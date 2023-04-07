@@ -91,3 +91,46 @@ border-radius:10px;
     display:flex;
   }
 }   
+
+
+.p-color{
+    color: green;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.btn{
+border: 1px solid goldenrod ;
+background: aqua;
+padding: 10px 20px;
+font-size: 20px;
+font-family:"montserrat";
+cursor: pointer;
+margin: 10px;
+position: relative;
+overflow:hidden;
+}
+
+.btn1{
+  color: black;
+}
+
+.btn::before{
+  content: "";
+  position:absolute;
+  left:0;
+  width: 50%;
+  height: 0%;
+  background:blueviolet;
+  z-index: -1;
+  transform: 0.8s;
+}
+ 
